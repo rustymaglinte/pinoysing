@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+button,
+input,
+select {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+option {
+  padding: 0.25rem 0;
+}

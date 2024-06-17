@@ -1,0 +1,42 @@
+.video-container {
+  margin: 0;
+  padding: 0;
+
+}
+
+.empty-song {
+  margin: 0;
+  padding: 0;
+  /* width: 13rem; */
+  width: 16rem;
+  height: 3rem;
+  position: relative;
+  animation-name: empty-song;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes empty-song {
+  0% {
+    left: 50%;
+    top: 0;
+  }
+  25% {
+    left: 50%;
+    top: 25%;
+  }
+  50% {
+    left: 25%;
+    top: 50%;
+  }
+  75% {
+    left: 0;
+    top: 50%;
+  }
+  100% {
+    left: 50%;
+    top: 0;
+}
+}
+
+

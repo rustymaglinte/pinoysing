@@ -1,0 +1,107 @@
+.landing-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.empty-container {
+  width: 75vw;
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: #cffa00;
+}
+
+.videoframe {
+  width: 75vw;
+  height: 100vh;
+  background-color: #1a1a1a;
+  z-index: 9999;
+}
+
+.input-container {
+  width: 25vw;
+}
+
+.input-container header {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  background-color: #ffcb61;
+  width: 100%;
+}
+
+.input-container h2 {
+  margin: 0;
+  padding: 0.5rem 0;
+  /* font-family: 'Great Vibes', 'cursive'; */
+  font-family: "Anton", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.07rem;
+}
+
+@media screen and (max-width: 1140px) {
+  .videoframe,
+  .empty-container {
+    width: 70vw;
+    height: 100vh;
+  }
+
+  .input-container {
+    width: 30vw;
+  }
+  .song-search {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .videoframe,
+  .empty-container {
+    width: 65vw;
+    height: 100vh;
+  }
+
+  .input-container {
+    width: 35vw;
+  }
+
+  .song-search {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landing-container {
+    flex-direction: column;
+  }
+
+  .videoframe,
+  .empty-container {
+    width: 100vw;
+    height: 35vh;
+    position: fixed;
+  }
+
+  .input-container header {
+    position: fixed;
+    z-index: 9999;
+    text-align: center;
+    background-color: #ffcb61;
+    width: 100%;
+  }
+
+  .input-container {
+    width: 100vw;
+    margin-top: 35vh;
+  }
+
+  .song-search {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .empty-container h1 {
+    font-size: large;
+    /* width: 7.5rem; */
+    width: 9rem;
+  }
+}

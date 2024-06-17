@@ -1,0 +1,187 @@
+option:hover {
+  background-color: #faa800;
+}
+
+.songSearch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.songSearch-container header {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  background-color: #ffcb61;
+  width: 100%;
+}
+
+.songSearch-container h2 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 900;
+  margin: 0.7rem 0;
+}
+
+.songSearch-container input {
+  padding: 0.5rem 0;
+  width: 97%;
+  margin-left: 1%;
+  border-radius: 0.5rem;
+  border-width: 1px;
+}
+
+.search-container {
+  display: flex;
+  align-items: bottom;
+  justify-content: left;
+  width: 100%;
+  z-index: 0;
+}
+
+.select button {
+  margin: 0 1rem;
+  width: 5rem;
+}
+
+.song-search {
+  position: fixed;
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+  width: 97%;
+  z-index: 0;
+  border-width: 1px;
+  text-align: center;
+}
+
+.select-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select-container h4,
+.songSearch-container h4 {
+  margin-bottom: 0;
+  margin-top: 2rem;
+  margin-bottom: 0.3rem;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .songSearch-container h4 {
+   
+    margin-top: 5rem;
+    
+  }
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 4px;
+  width: 96.5%;
+}
+
+.select h4 {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.select p {
+  font-size: small;
+  color: red;
+  font-style: italic;
+}
+
+.reserved-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reserved-songs {
+  height: 10rem;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 4px;
+  width: 96.5%;
+  overflow-x: hidden;
+}
+
+.reserved-songs button {
+  width: 95%;
+  margin: 2% 0 0 0;
+  border-color: hsl(0, 0%, 70%);
+}
+
+.reserve-button {
+  background-color: #ffcb61;
+  border-color: hsl(0, 0%, 70%);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  padding: 0.2rem;
+  font-weight: bold;
+}
+
+.reserve-button:hover {
+  background-color: #faa800;
+}
+
+.my-reserved-songs {
+  border-width: 1px;
+  border-radius: 4px;
+  padding: 0.5rem 0;
+}
+
+.remove-button {
+  border-color: hsl(0, 0%, 70%);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  padding: 0.2rem;
+}
+
+.reserved-container h4 {
+  text-align: center;
+  margin: 2rem 0 0.3rem 0;
+  font-weight: normal;
+}
+
+.next-song {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.next-song button {
+  background-color: #ffcb61;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: hsl(0, 0%, 70%);
+  height: 2.5rem;
+  width: auto;
+  font-size: large;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.next-song button:hover {
+  background-color: #faa800;
+}

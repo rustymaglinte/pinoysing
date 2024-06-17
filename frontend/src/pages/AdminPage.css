@@ -1,0 +1,29 @@
+.admin-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fetched-songs {
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+}
+
+.fetched-songs h2 {
+  text-align: center;
+  }
+
+.individual-song {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.individual-song p,
+h2 {
+  margin: 0.5rem 0.5rem 0.5rem 2rem;
+}
+.individual-song button {
+  margin-right: 0.5rem;
+}
