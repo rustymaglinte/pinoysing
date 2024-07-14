@@ -24,7 +24,7 @@ const AddSong = () => {
         }
 
         try {
-            const response = await axios.post('https://pinoysing-374a04dc1fef.herokuapp.com/pinoysing', {
+            const response = await axios.post('https://projectsbackend-7113dc7e820d.herokuapp.com/pinoysing', {
                 songNumber: songNumber,
                 title: title,
                 artist: artist,

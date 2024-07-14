@@ -39,7 +39,7 @@ const EditSong = () => {
         }
 
         try {
-            const response = await axios.patch(`https://pinoysing-374a04dc1fef.herokuapp.com/pinoysing/${id}`, {
+            const response = await axios.patch(`https://projectsbackend-7113dc7e820d.herokuapp.com/pinoysing/${id}`, {
                 songNumber: songNumber,
                 title: title,
                 artist: artist,
